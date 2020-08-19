@@ -1,0 +1,15 @@
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\PacManGameSample.exe
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\PacManGameSample.deps.json
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\PacManGameSample.runtimeconfig.json
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\PacManGameSample.runtimeconfig.dev.json
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\PacManGameSample.dll
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\PacManGameSample.pdb
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.csprojAssemblyReference.cache
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.AssemblyInfoInputs.cache
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.AssemblyInfo.cs
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.dll
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.pdb
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.genruntimeconfig.cache
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.csproj.CoreCompileInputs.cache
+C:\Users\ahmed.ayaad\source\repos\PacManGameSample\PacManGameSample\obj\Debug\netcoreapp3.1\PacManGameSample.csproj.CopyComplete
