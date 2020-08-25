@@ -34,7 +34,7 @@ namespace PacManGameSample
         {
 
             if (HasKey(player))
-                if (Compare(player, Cell))
+                if (Cell.Compare(player))
                 {
                     player.WeaponPower += points;
                     Console.WriteLine($"Player Weapon Increased to {player.WeaponPower }");
