@@ -4,6 +4,7 @@ using System.Text;
 
 namespace PacManGameSample
 {
+    //context
     class Box
     {
         public BoxStrategy BoxStrategy { get; set; }
@@ -11,13 +12,11 @@ namespace PacManGameSample
         {
             BoxStrategy = strategy;
         }
-        public void IncreaseHealth(int points, Player player)
+
+        public void DoMagic(int points, Player player)
         {
-            BoxStrategy.IncreaseHealth(points, player);
+            BoxStrategy.DoMagic(points, player);
         }
-        public void IncreaseWeapon(int points, Player player)
-        {
-            BoxStrategy.IncreaseWeapon(points, player);
-        }
+
     }
 }

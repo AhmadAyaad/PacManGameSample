@@ -16,7 +16,7 @@ namespace PacManGameSample
         public override void IncreaseHealth(int points, Player player)
         {
             if (HasKey(player))
-                if (Compare(player, Cell))
+                if (Cell.Compare(player))
                 {
                     if (player.PlayerHealth + points <= 100)
                         player.PlayerHealth += points;
@@ -26,9 +26,12 @@ namespace PacManGameSample
                     Console.WriteLine("can not increase health");
         }
 
-        public override void IncreaseWeapon(int points, Player player)
+
+        public override void DoMagic(int points, Player player)
         {
-            player.WeaponPower += 0;
+            IncreaseHealth(points, player);
         }
+
+
     }
 }

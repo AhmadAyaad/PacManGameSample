@@ -24,4 +24,8 @@ namespace PacManGameSample
         }
 
     }
+
+    public class Class1
+    {
+    }
 }

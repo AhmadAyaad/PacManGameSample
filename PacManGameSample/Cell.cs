@@ -25,7 +25,12 @@ namespace PacManGameSample
                     return true;
             return false;
         }
+        public bool Compare(Player player)
+        {
+            if (player.playerCell.Equals(this))
+                return true;
+            return false;
+        }
 
-        
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace PacManGameSample
 {
@@ -13,6 +14,7 @@ namespace PacManGameSample
         public int WeaponPower { get; set; } = 80;
         public Map Map { get; set; }
         public Ikey Ikey { get; set; }
+        public BoxStrategy BoxStrategy { get; set; }
 
         public static Player GetPlayer()
         {
@@ -40,5 +42,7 @@ namespace PacManGameSample
             else
                 Console.WriteLine("can not move more than one cell");
         }
+      
+    
     }
 }

@@ -41,12 +41,12 @@ namespace PacManGameSample
             //Creating BronzeBox
             IBoxCreator boxCreator = new BronzeBoxCreator();
             var bronzeBox = boxCreator.CreateBox();
-            bronzeBox.Cell = new Cell(25, 10);
+            bronzeBox.Cell = new Cell(1, 13);
 
             //Creating GoldenBox
             boxCreator = new GoldenBoxCreator();
             var goldenBox = boxCreator.CreateBox();
-            bronzeBox.Cell = new Cell(1, 1);
+            goldenBox.Cell = new Cell(12, 1);
 
             //Creating SilverBox
             boxCreator = new SilverBoxCreator();
@@ -56,25 +56,29 @@ namespace PacManGameSample
             #endregion
 
 
-            player.Ikey = goldenKey;
+            player.Ikey = bronzeKey;
             player.Walk(bronzeBox.Cell);
-            silverBox.IncreaseHealth(10, player);
+            bronzeBox.DoMagic(10, player);
 
 
             if (player.playerCell.Equals(silverBox.Cell) && silverBox.HasKey(player))
             {
                 Box box = new Box(boxCreator.CreateBox());
+                player.BoxStrategy = box.BoxStrategy;
 
             }
             else if (player.playerCell.Equals(goldenBox.Cell) && bronzeBox.HasKey(player))
             {
                 boxCreator = new GoldenBoxCreator();
                 Box box = new Box(boxCreator.CreateBox());
+                player.BoxStrategy = box.BoxStrategy;
             }
             else if (player.playerCell.Equals(bronzeBox.Cell) && goldenBox.HasKey(player))
             {
                 boxCreator = new BronzeBoxCreator();
                 Box box = new Box(boxCreator.CreateBox());
+                player.BoxStrategy = box.BoxStrategy;
+
             }
 
             enemy.DecreaseHealth(player);
@@ -83,6 +87,7 @@ namespace PacManGameSample
 
         }
     }
+
 
 
 

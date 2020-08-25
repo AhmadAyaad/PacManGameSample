@@ -6,6 +6,12 @@ namespace PacManGameSample
 {
     class GoldenBox : BoxStrategy
     {
+        public override void DoMagic(int points, Player player)
+        {
+            IncreaseHealth(points, player);
+            IncreaseWeapon(points, player);
+        }
+
         public override bool HasKey(Player player)
         {
             if (player.Ikey is GoldenKey silver)
@@ -25,13 +31,13 @@ namespace PacManGameSample
                     Console.WriteLine("can not increase health");
         }
 
-        public override void IncreaseWeapon(int points, Player player)
+        private void IncreaseWeapon(int points, Player player)
         {
             if (HasKey(player))
-                if (Compare(player, Cell))
+                if (Cell.Compare(player))
                 {
                     player.WeaponPower += points;
-                    Console.WriteLine($"Player Wepaon Power increased to  :{player.PlayerHealth}");
+                    Console.WriteLine($"Player Wepaon Power increased to  :{player.WeaponPower}");
 
                 }
                 else

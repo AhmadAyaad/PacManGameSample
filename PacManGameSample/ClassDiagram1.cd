@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PacManGameSample.BoxStrategy" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAABAAAAAAABAAAAAAABAAAAAABA=</HashCode>
+      <FileName>BoxStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManGameSample.BronzeBox" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>BronzeBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManGameSample.GoldenBox" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAABA=</HashCode>
+      <FileName>GoldenBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManGameSample.SilverBox" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAABA=</HashCode>
+      <FileName>SilverBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacManGameSample.GoldenKey" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoldenKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManGameSample.BronzeKey" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BronzeKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManGameSample.SilverKey" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SilverKey.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManGameSample.Box_Factory.SilverBoxCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Box Factory\SilverBoxCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManGameSample.Box_Factory.GoldenBoxCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Box Factory\GoldenBoxCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PacManGameSample.Box_Factory.BronzeBoxCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Box Factory\BronzeBoxCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="PacManGameSample.Ikey" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ikey.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PacManGameSample.Box_Factory.IBoxCreator" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Box Factory\IBoxCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

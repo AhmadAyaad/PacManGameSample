@@ -10,11 +10,21 @@ namespace PacManGameSample
 
         public void OpenBox(BoxStrategy boxStrategy)
         {
-            var type = boxStrategy.GetType();
-            if (type == typeof(GoldenBox))
-                Console.WriteLine($"Golden key is opening : {boxStrategy.ToString()} ");
-            else
-                Console.WriteLine("this key is not suitable for this box");
+            //var type = boxStrategy.GetType();
+            //if (type == typeof(GoldenBox))
+            //    Console.WriteLine($"Golden key is opening : {boxStrategy.ToString()} ");
+            //else
+            //    Console.WriteLine("this key is not suitable for this box");
+
+
+            /////////////////////
+
+
+            //if (boxStrategy.HasKey(player))
+            //    Console.WriteLine("");
+
+
+
         }
     }
 }

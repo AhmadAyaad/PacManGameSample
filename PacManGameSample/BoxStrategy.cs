@@ -8,8 +8,8 @@ namespace PacManGameSample
     {
         public Cell Cell { get; set; }
         public abstract void IncreaseHealth(int points, Player player);
-        public abstract void IncreaseWeapon(int points, Player player);
 
+        public abstract void DoMagic(int points, Player player);
         public bool Compare(Player player, Cell boxCell)
         {
             if (player.playerCell.Equals(boxCell))
